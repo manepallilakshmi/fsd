@@ -1,0 +1,13 @@
+git config---global user.name"satyamanepalli"
+
+git config--global user.email"satyamanepalli94@gmail.com
+
+git config---global--list
+
+git init
+
+login.html
+
+git add "login.html"--filename
+
+git commit--M "login"
