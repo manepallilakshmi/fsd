@@ -1,0 +1,12 @@
+body{
+	background-image: url('pk.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: dotted;
+}
+div{
+	background-image: url('p.jpg');
+	background-size: cover;
+	border: dashed;
+	border-width: 5px;
+}

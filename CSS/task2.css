@@ -1,0 +1,83 @@
+h1{
+	font size: 500px;
+	color: gold;
+	font-family: cursive;
+}
+.A{
+	background-color: skyblue;
+	border-radius: 20px;
+	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: none;
+}
+h2{
+	font size: 50px;
+	color: white;
+	align-content: center;
+}
+ul{
+	font-size: 30px;
+}
+.D{
+	background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border: none;
+
+}
+.E{
+	background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	padding-left: 90px;
+	padding-right: 90px;
+	border: none;
+}
+.F{
+	background-color: orange;
+	border-radius: 20px;
+	padding: 15px;
+	padding-left: 60px;
+	padding-right: 60px;
+	border: none;
+}
+.B{
+	background-color: skyblue;
+	border-radius: 20px;
+	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: none;
+
+}
+.Q{
+	background-color: white;
+/*	border-radius: 20px;*/
+	padding: 15px;
+	padding-left: 90px;
+	padding-right: 200px;
+	border: none;
+
+}
+.K{
+	background-color: orange;
+/*	border-radius: 20px;*/
+	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: none;
+}
+.AK{
+	border-radius: 50%;
+}
+.L{
+	padding: 10px;
+	background-color: lightgrey;
+}
+.M{
+	padding: 10px;
+	background-color: orange;
+}

@@ -1,0 +1,18 @@
+.xyz{
+	background-color: palevioletred;
+	border:10px dotted beige;
+	font-family: monospace;
+	font-size: 50px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+#abc{
+	font-size: 50px;
+	font-family: monospace;
+	border: 10px dotted beige;
+	line-height: 100px;
+	height: 100px;
+	text-align: center;
+	background-color: palevioletred;
+	}
