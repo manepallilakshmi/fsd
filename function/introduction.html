@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Function</title>
+</head>
+<body>
+	<script type="text/javascript">
+    // normal function with no paramters 
+    function test(){
+   	alert("testing");
+   }
+   test() //calling the function
+   function getname(a='bhavani')
+   {
+   	document.write(a+"<br>")
+   } 
+   // getname()
+   //function with one parameter
+   var a=prompt("scan your id here");
+   function scanyourid(rollno){
+   	document.write(rollno+"<br>")
+   }
+   scanyourid(a)
+   var s=10;
+   var e=20;
+   function add(s,e){
+   	document.write(s+e+"<br>");
+   }
+   //function using addition
+   add(s,e)
+   function sum(a=0,b=0)
+   {
+   	document.write(a+b+"<br>")
+   }
+   sum()
+   //anonymous function is a function without having function name
+   var x=function(a,b)
+   {
+   	 return a*b
+   }
+   document.write(x(2,5)+"<br>")
+   var e=function(a)
+   {
+   	return a*a*a
+   }
+   document.write(e(2)+"<br>")
+   //arrow function "=>"
+   //never use function keyword
+   //with two arguments
+   add = (a,b) => {
+   	document.write(a+b+"<br>")
+   }
+   add(10,20)
+   //with one argument
+   getname = a =>{
+   	document.write(a+"<br>")
+   }
+   getname('srinu')
+   test = _=>{
+   	document.write("satyaass")
+   }
+   test()
+   
+   </script>
+</body>
+</html>

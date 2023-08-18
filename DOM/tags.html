@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS</title>
+</head>
+<body>
+	<input type="text" name="" id="insid" value="">
+	<p id ="w">Please enter name</p>
+	<p class="topic">HTML</p>
+	<p class="topic">CSS</p>
+	<p class="topic">BS</p>
+	<p class="topic">JS</p>
+	<ul>
+		<li>AEC</li>
+		<li>ACET</li>
+		<li>ACOE</li>
+	</ul>
+	<script type="text/javascript">
+		let ins=document.getElementById('insid');
+		ins.style.border="5px solid red";
+		let ins1=document.getElementById('w').style.color="red";
+		// let i=document.getElementsByClassName('topic');
+		// i[0].innerHTML="html";
+		// i[0].style.color="blue";
+		// i[1].innerHTML="css";
+		// i[1].style.color="pink";
+		// i[2].innerHTML="bs";
+		// i[2].style.color="green";
+		// i[3].innerHTML="js";
+		// i[3].style.color="yellow";
+		// let lis=document.getElementsByTagName('li');
+		// lis[0].innerText='Aditya Engineering College';
+        let lis=document.querySelector('li');
+		lis.innerText='Aditya Engineering College';
+		let i=document.querySelector('.topic');
+		i.innerText='<span>hyper text markup language</span>';
+		i.innerHTML='<span>hyper text markup language</span>';
+        const modellis=document.querySelector("id,class");
+        for (let i = 0 ;i<modellis;i++) {
+        	modellis[i].style.backgroundcolor="red";
+        }
+	</script>
+
+</body>
+</html>

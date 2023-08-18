@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>table</title>
+</head>
+<body>
+	<table border="">
+		<th><b>Course name</b></th>
+		<th><b>course number</b></th>
+		<th><b>course fees</b></th>
+		<th><b>place</b></th>
+      <tbody id="tbdy"></tbody>
+	</table>
+    <script type="text/javascript">
+    	var a=[{
+                 'name':'html',
+                 'number':23423,
+                 'fee':235,
+                 'place':'dwp'
+              },
+              {
+                'name':'css',
+                 'number':65687,
+                 'fees':567,
+                 'place':'dwp'
+              },
+              {
+                 'number':'javascript',
+                 'number':67845,
+                 'fees':7656,
+                 'place':'dwp'
+              }]
+    	let s1= document.getElementById("tbdy");
+    	for (var i =0; i<a.length;i++) 
+    	{
+          var s2=document.createElement("tr");
+          var s3=document.createElement("td");
+          var s4=document.createElement("td");
+          var s5=document.createElement("td");
+          var s6=document.createElement("td");
+          s3.innerHTML=a[i].name;
+          s4.innerHTML=a[i].number;
+          s5.innerHTML=a[i].fee;
+          s6.innerHTML=a[i].place;
+    		 s2.appendChild(s3);
+          s2.appendChild(s4);
+          s2.appendChild(s5);
+          s2.appendChild(s6);
+
+          s1.appendChild(s2);
+        }
+</script>
+</body>
+</html>
