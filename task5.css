@@ -1,0 +1,18 @@
+a{
+	height: 50px;
+	width: 150px;
+}
+.h{
+	border: 1px solid black;
+	border-radius: 0px;
+}
+#s{
+	background-color: #8CABFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+center{
+	border: 5px solid black;
+	border-radius: 50%;
+}

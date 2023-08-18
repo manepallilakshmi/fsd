@@ -1,0 +1,31 @@
+.h{
+	height: 50px;
+	background-color: white;
+
+
+}
+.t{
+	color: green;
+	border-radius: 50%;
+}
+.p{
+	background-color: lightgray;
+	padding: 50px 50px;
+}
+.e{
+	height: 25px;
+	width: 25px;
+	border: 1px solid black;
+	text-align:center;
+}
+.o{
+	text-align: right;
+}
+img{
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	}
+.d{
+	text-align: right;
+}

@@ -1,0 +1,45 @@
+*{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+#s{
+	background-color: lawngreen;
+}
+.a{
+	width:100px;
+	text-align: center;
+}
+#w1{
+	height: 100px;
+	width: 100px;
+}
+#w2{
+	height: 75px;
+	width: 75px;
+
+}
+#w3{
+	height: 75px;
+	width: 75px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#w4{
+	height: 85px;
+	width: 85px;
+}
+.s{
+	padding-top: 10px;
+}
+.r{
+	background-color: whitesmoke;
+	padding-top: 20px;
+}
+.h{
+
+	margin-left: 150px;
+}
+.i{
+	background-color: white;
+	
+}
